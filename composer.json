@@ -1,0 +1,17 @@
+{
+    "name": "codeaisyspc1/php-learning",
+    "autoload": {
+        "psr-4": {
+            "Codeaisyspc1\\PhpLearning\\": "src/",
+            "PaymentGateway\\Paddle\\": "path/to/paddle/library/",
+            "App\\":"app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sithum Witharana",
+            "email": "witharana92@gmail.com"
+        }
+    ],
+    "require": {"ramsey/uuid" :"^4.1"}
+}
